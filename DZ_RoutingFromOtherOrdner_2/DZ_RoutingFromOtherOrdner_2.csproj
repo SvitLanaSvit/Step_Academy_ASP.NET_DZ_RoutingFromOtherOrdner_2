@@ -6,4 +6,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\biography.html" />
+    <Content Remove="wwwroot\portfolio.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\biography.html" />
+    <None Include="wwwroot\portfolio.html" />
+  </ItemGroup>
+
 </Project>
